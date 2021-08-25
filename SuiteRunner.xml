@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Happy scenario Suite">
+    <parameter name="browser" value="chrome"/>
+
+    <test name="Verify_Search_Filter_001">
+        <classes>
+            <class name="Test_cases.Verify_Search_Filter_001"/>
+        </classes>
+    </test>
+</suite>
